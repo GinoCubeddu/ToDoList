@@ -17,7 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/add_task_button"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:onClick="onButtonClicked"/>
 
     <LinearLayout
         android:id="@+id/TaskListLayout"
