@@ -11,5 +11,11 @@ public class ToDoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_to_do);
+
+        Backendless.initApp(
+            this,
+            System.getenv("BACKENDLESS_APP_ID"),
+            System.getenv("BACKENDLESS_ANDROID_KEY")
+        );
     }
 }
