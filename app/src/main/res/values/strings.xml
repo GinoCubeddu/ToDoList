@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDoExample</string>
+    <string name="mew_task_placeholder">New Task</string>
+    <string name="add_task_button">ADD TASK</string>
+</resources>
